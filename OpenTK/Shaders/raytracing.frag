@@ -133,33 +133,33 @@ void initializeDefaultScene() {
     triangles[3].v3 = vec3(5.0, 5.0, 5.0);
     triangles[3].MaterialIdx = 2;
 
-    triangles[6].v1 = vec3(-5.0, -5.0, 5.0);
-    triangles[6].v2 = vec3(5.0, 5.0, 5.0);
+    triangles[6].v2 = vec3(-5.0, -5.0, 5.0);
+    triangles[6].v1 = vec3(5.0, 5.0, 5.0);
     triangles[6].v3 = vec3(5.0, -5.0, 5.0);
     triangles[6].MaterialIdx = 2;
 
-    triangles[7].v1 = vec3(-5.0, -5.0, 5.0);
-    triangles[7].v2 = vec3(-5.0, 5.0, 5.0);
+    triangles[7].v2 = vec3(-5.0, -5.0, 5.0);
+    triangles[7].v1 = vec3(-5.0, 5.0, 5.0);
     triangles[7].v3 = vec3(5.0, 5.0, 5.0);
     triangles[7].MaterialIdx = 2;
 
-    triangles[8].v1 = vec3(-5.0, -5.0, -5.0);
-    triangles[8].v2 = vec3(5.0, -5.0, 5.0);
+    triangles[8].v2 = vec3(-5.0, -5.0, -5.0);
+    triangles[8].v1 = vec3(5.0, -5.0, 5.0);
     triangles[8].v3 = vec3(5.0, -5.0, -5.0);
     triangles[8].MaterialIdx = 4;
 
-    triangles[9].v1 = vec3(-5.0, -5.0, -5.0);
-    triangles[9].v2 = vec3(-5.0, -5.0, 5.0);
+    triangles[9].v2 = vec3(-5.0, -5.0, -5.0);
+    triangles[9].v1 = vec3(-5.0, -5.0, 5.0);
     triangles[9].v3 = vec3(5.0, -5.0, 5.0);
     triangles[9].MaterialIdx = 4;
 
-    triangles[10].v1 = vec3(-5.0, 5.0, -5.0);
-    triangles[10].v2 = vec3(5.0, 5.0, -5.0);
+    triangles[10].v2 = vec3(-5.0, 5.0, -5.0);
+    triangles[10].v1 = vec3(5.0, 5.0, -5.0);
     triangles[10].v3 = vec3(5.0, 5.0, 5.0);
     triangles[10].MaterialIdx = 3;
 
-    triangles[11].v1 = vec3(-5.0, 5.0, -5.0);
-    triangles[11].v2 = vec3(5.0, 5.0, 5.0);
+    triangles[11].v2 = vec3(-5.0, 5.0, -5.0);
+    triangles[11].v1 = vec3(5.0, 5.0, 5.0);
     triangles[11].v3 = vec3(-5.0, 5.0, 5.0);
     triangles[11].MaterialIdx = 3;
 
@@ -176,7 +176,7 @@ void initializeDefaultScene() {
     spheres[2].MaterialIdx = 0;
 
 
-    spheres[3].Center = vec3(3.0, -3.0, -3.0);
+    spheres[3].Center = vec3(3.0, -5.0, -3.0);
     spheres[3].Radius = 2.0;
     spheres[3].MaterialIdx = 0;
 }
@@ -184,7 +184,7 @@ void initializeDefaultScene() {
 void initializeDefaultLightMaterials(out SLight light, out SMaterial materials[6]) {
     light.Position = vec3(0.0, 2.0, -4.0f);
 
-    vec4 lightCoefs = vec4(0.4, 0.9, 0.0, 512.0);
+    vec4 lightCoefs = vec4(0.4, 0.9, 2.0, 512.0);
     materials[0].Color = vec3(0.0, 1.0, 0.0);
     materials[0].LightCoeffs = lightCoefs;
     materials[0].ReflectionCoef = 0.0;
@@ -199,10 +199,10 @@ void initializeDefaultLightMaterials(out SLight light, out SMaterial materials[6
     materials[1].Transparency = 1.0; 
     materials[1].MaterialType = MIRROR_REFLECTION;
 
-    materials[2] = SMaterial(vec3(1.0), lightCoefs, 0.0, 1.0, 1.0, DIFFUSE);
+    materials[2] = SMaterial(vec3(1.0), lightCoefs, 1.0, 1.0, 1.0, DIFFUSE);
     materials[3] = SMaterial(vec3(1.0, 0.0, 0.0), lightCoefs, 0.0, 1.0, 1.0, DIFFUSE);
-    materials[4] = SMaterial(vec3(0.0, 0.0, 1.0), lightCoefs, 0.0, 1.0, 1.0, DIFFUSE);
-    materials[5] = SMaterial(vec3(1.0, 0.0, 1.0), lightCoefs, 0.0, 1.0, 1.0, DIFFUSE);
+    materials[4] = SMaterial(vec3(1.0, 0.0, 1.0), lightCoefs, 0.0, 1.0, 1.0, DIFFUSE);
+    materials[5] = SMaterial(vec3(1.0, 1.0, 1.0), lightCoefs, 1.0, 1.0, 1.0, DIFFUSE);
 }
 
 bool IntersectSphere(SSphere sphere, SRay ray, float start, float final, out float time) {

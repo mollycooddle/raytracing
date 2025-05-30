@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|solutionrelative:opentk\\shaders\\raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|c:\\users\\tooly\\desktop\\raytracing\\opentk\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|solutionrelative:opentk\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|c:\\users\\tooly\\desktop\\raytracing\\opentk\\shaders\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|solutionrelative:opentk\\shaders\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|c:\\users\\tooly\\desktop\\raytracing\\opentk\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|solutionrelative:opentk\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{452B2798-7A87-4215-9CA9-BF83540A1545}|OpenTK\\Open_TK.csproj|c:\\users\\tooly\\desktop\\raytracing\\opentk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,23 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "raytracing.vert",
-              "DocumentMoniker": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\Shaders\\raytracing.vert",
-              "RelativeDocumentMoniker": "OpenTK\\Shaders\\raytracing.vert",
-              "ToolTip": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\Shaders\\raytracing.vert",
-              "RelativeToolTip": "OpenTK\\Shaders\\raytracing.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-12T10:44:28.886Z"
             },
             {
               "$type": "Document",
@@ -52,7 +40,7 @@
               "RelativeDocumentMoniker": "OpenTK\\Shaders\\raytracing.frag",
               "ToolTip": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\Shaders\\raytracing.frag",
               "RelativeToolTip": "OpenTK\\Shaders\\raytracing.frag",
-              "ViewState": "AgIAAGgBAAAAAAAAAAAAAHMBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-12T10:44:28.014Z",
               "EditorCaption": ""
@@ -60,6 +48,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "raytracing.vert",
+              "DocumentMoniker": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\Shaders\\raytracing.vert",
+              "RelativeDocumentMoniker": "OpenTK\\Shaders\\raytracing.vert",
+              "ToolTip": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\Shaders\\raytracing.vert",
+              "RelativeToolTip": "OpenTK\\Shaders\\raytracing.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-12T10:44:28.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\tooly\\Desktop\\raytracing\\OpenTK\\View.cs",
               "RelativeDocumentMoniker": "OpenTK\\View.cs",
